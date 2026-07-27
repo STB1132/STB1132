@@ -26,7 +26,7 @@
       filter="url(#glow)">
 
      <tspan  x="30" dy="22" id="name">
-     🧬 Sara Azidane Chenlo
+     Sara Azidane Chenlo
      <animate
          attributeName="opacity"
          values="0;0;0;1"
@@ -41,27 +41,32 @@
     </tspan>
     <tspan x="30" dy="22">
      : ) ;"`':._::_.      ( :.                  Neurodevelopmental Genomics
+         <animate
+         attributeName="opacity"
+         values="0;0;0;1"
+         dur="1.8s"
+         fill="freeze"/>
     </tspan>
     <tspan x="30" dy="22">
-   .:-"   _.  `"##"` "._   `-:\                 Structural Variants (SVs)
+   .:-"   _.  `"##"` "._   `-:\                
     </tspan>
     <tspan x="30" dy="22">
-  /."   -"`  ._.::._. .'"-   ".:                Copy Number Variants (CNVs)
+  /."   -"`  ._.::._. .'"-   ".:              
     </tspan>
     <tspan x="30" dy="22">
- : :    ( -: `" :: "` :- )    : )               Brain MRI • Precision Medicine
+ : :    ( -: `" :: "` :- )    : )                 Copy Number Variants (CNVs)
     </tspan>
     <tspan x="30" dy="22">
-( .":==._' `'=._##_.='` '_.==: .'               Python • R • Nextflow • AWS
+( .":==._' `'=._##_.='` '_.==: .'              
     </tspan>
     <tspan x="30" dy="22">
-(:  `, `"`    `"##"`    `"` .'`".)              Docker • Linux • Machine Learning
+(:  `, `"`    `"##"`    `"` .'`".)              Python • R • Nextflow • AWS
     </tspan>
     <tspan x="30" dy="22">
  \`'  `"--.  "- )( -" ..--"`  `-/
     </tspan>
     <tspan x="30" dy="22">
- (" (_." =""-..."`...-""= "._) ")
+ (" (_." =""-..."`...-""= "._) ")               Brain MRI • Precision Medicine
     </tspan>
     <tspan x="30" dy="22">
   "..__..-"  )%`..'%(  "-..__.."
