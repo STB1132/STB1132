@@ -1,60 +1,32 @@
-<tspan x="30" dy="22">
-                                                STB1132
-</tspan>
-<tspan x="30" dy="22">
-        .."`)" `.." `(``..
-</tspan>
-<tspan x="30" dy="22">
-      .'; _..=. :: `-'._ ;`.
-</tspan>
-<tspan x="30" dy="22">
-     : ) ;"`':._::_.      ( :.
-</tspan>
-<tspan x="30" dy="22">
-   .:-"   _.  `"##"` "._   `-:\
-</tspan>
-<tspan x="30" dy="22">
-  /."   -"`  ._.::._. .'"-   ".:
-</tspan>
-<tspan x="30" dy="22">
- : :    ( -: `" :: "` :- )    : )
-</tspan>
-<tspan x="30" dy="22">
-( .":==._' `'=._##_.='` '_.==: .'
-</tspan>
-<tspan x="30" dy="22">
-(:  `, `"`    `"##"`    `"` .'`".)
-</tspan>
-<tspan x="30" dy="22">
- \`'  `"--.  "- )( -" ..--"`  `-/
-</tspan>
-
-<!-- Info starts here -->
-
-<tspan x="30" dy="22">
- (" (_." =""-..."`...-""= "._) ")               Computational Biology
-</tspan>
-
-<tspan x="30" dy="22">
-  "..__..-"  )%`..'%(  "-..__.."               Neurodevelopmental Genomics
-</tspan>
-
-<tspan x="30" dy="22">
-       (#"...'\%%%%/`..."#)                    CNVs • SVs • Brain MRI
-</tspan>
-
-<tspan x="30" dy="22">
-        `######`--'######"                     Python • R • Nextflow • AWS
-</tspan>
-
-<tspan x="30" dy="22">
-          "###")@@(`###"
-</tspan>
-
-<tspan x="30" dy="22">
-               \@@/
-</tspan>
-
-<tspan x="30" dy="22">
-                )(
-</tspan>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <rect width="300%" height="300%" fill="transparent"/>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation=".5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="30" y="35" fill="#00ff41" font-family="JetBrains Mono, Consolas, monospace" font-size="18" xml:space="preserve" filter="url(#glow)">
+    <tspan x="30" dy="22" id="name">user@STB1132:~# Sara Azidane Chenlo</tspan>
+    <tspan x="30" dy="22">       ..")"        .." (..</tspan>
+    <tspan x="30" dy="22">      .'; _..=.  ::  -'._ ;.</tspan>
+    <tspan x="30" dy="22">      : ) ;"':._::_. ( :.</tspan>
+    <tspan x="30" dy="22">      .:-"  _. "##"  "._ -:\</tspan>
+    <tspan x="30" dy="22">     /."  -"  ._.::._.  .'"- ".:</tspan>
+    <tspan x="30" dy="22">    : : (  -:   " :: "   :- ) : )</tspan>
+    <tspan x="30" dy="22">    (  .":==._'  '=._##_.='  '_.==: .'</tspan>
+    <tspan x="30" dy="22">     (: ,    "  "##" "  .'".)</tspan>
+    <tspan x="30" dy="22">      \'  "--.  "- )( -"  ..--"  -/</tspan>
+    <tspan x="30" dy="22">       ("   (_."  =""-..."...-""=  "._) ")</tspan>
+    <tspan x="30" dy="22">        "..__..-"  )%..'%(  "-..__.."</tspan>
+    <tspan x="30" dy="22">          (#"...'\%%%%/..."#)          &gt;&gt; Computational Biologist (Genetics PhD)</tspan>
+    <tspan x="30" dy="22">            ######--'######"           &gt;&gt; Neurogenomics &amp; Copy Number Variants</tspan>
+    <tspan x="30" dy="22">               "###")@@(###"           &gt;&gt; Brain MRI &amp; Precision Medicine</tspan>
+    <tspan x="30" dy="22">                   \@@/                &gt;&gt; Python • R • Nextflow • AWS</tspan>
+    <tspan x="30" dy="22">                    )(</tspan>
+  </text>
+</svg>
