@@ -25,9 +25,14 @@
       xml:space="preserve"
       filter="url(#glow)">
 
-    <tspan x="30" dy="0">
-            ___    ___                           🧬 Sara Azidane Chenlo
-    </tspan>
+     <tspan id="name">
+     🧬 Sara Azidane Chenlo
+     <animate
+         attributeName="opacity"
+         values="0;0;0;1"
+         dur="1.8s"
+         fill="freeze"/>
+     </tspan>
     <tspan x="30" dy="22">
         .."`)" `.." `(``..                      Computational Biologist
     </tspan>
