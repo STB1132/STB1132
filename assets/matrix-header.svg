@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450">
+  <rect width="100%" height="100%" fill="#000000"/>
+
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text
+      x="40"
+      y="40"
+      fill="#00ff41"
+      font-family="JetBrains Mono, Consolas, monospace"
+      font-size="16"
+      xml:space="preserve"
+      filter="url(#glow)">
+<![CDATA[
+            ___    ___                           🧬 Sara Azidane Chenlo
+        .."`)" `.." `(``..                      Computational Biologist
+      .'; _..=. :: `-'._ ;`.                    Industrial PhD in Genetics
+     : ) ;"`':._::_.      ( :.                  Neurodevelopmental Genomics
+   .:-"   _.  `"##"` "._   `-:\                 Structural Variants (SVs)
+  /."   -"`  ._.::._. .'"-   ".:                Copy Number Variants (CNVs)
+ : :    ( -: `" :: "` :- )    : )               Brain MRI • Precision Medicine
+( .":==._' `'=._##_.='` '_.==: .'               Python • R • Nextflow • AWS
+(:  `, `"`    `"##"`    `"` .'`".)              Docker • Linux • Machine Learning
+ \`'  `"--.  "- )( -" ..--"`  `-/
+ (" (_." =""-..."`...-""= "._) ")
+  "..__..-"  )%`..'%(  "-..__.."
+       (#"...'\%%%%/`..."#)
+        `######`--'######"
+          "###")@@(`###"
+               \@@/
+                )(
+]]>
+  </text>
+</svg>
