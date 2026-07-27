@@ -26,7 +26,7 @@
       filter="url(#glow)">
 
      <tspan  x="30" dy="22" id="name">
-     Sara Azidane Chenlo
+                                               Sara Azidane Chenlo
      <animate
          attributeName="opacity"
          values="0;0;0;1"
