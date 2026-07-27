@@ -8,7 +8,7 @@
 
   <defs>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation=".5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -21,7 +21,7 @@
       y="35"
       fill="#00ff41"
       font-family="JetBrains Mono, Consolas, monospace"
-      font-size="18"
+      font-size="28"
       xml:space="preserve"
       filter="url(#glow)">
 
