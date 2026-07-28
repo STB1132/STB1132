@@ -2,8 +2,6 @@
   <img src="./assets/matrix-header.svg" width="100%" alt="Header">
 </p>
 
-<h1 align="center">Sara Azidane Chenlo</h1>
-
 <p align="center">
 Computational Biologist · Industrial PhD in Genetics<br>
 Neurodevelopmental Genomics 
