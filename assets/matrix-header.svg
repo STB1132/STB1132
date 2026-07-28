@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1400"
-     height="430"
-     viewBox="0 0 1400 430">
-
-  <rect width="100%" height="100%" fill="transparent"/>
+     width="1200"
+     height="240"
+     viewBox="0 0 1200 240">
 
   <defs>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feGaussianBlur stdDeviation="0.4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -16,38 +14,79 @@
     </filter>
   </defs>
 
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <!-- Blinking cursor -->
   <text x="30"
-        y="18"
+        y="30"
         fill="#00ff41"
         font-family="JetBrains Mono, Consolas, monospace"
-        font-size="18"
+        font-size="20"
+        filter="url(#glow)">
+    STB1132
+    <tspan>
+      _
+      <animate attributeName="opacity"
+               values="1;0;1"
+               dur="1s"
+               repeatCount="indefinite"/>
+    </tspan>
+  </text>
+
+  <!-- Brain -->
+  <text x="40"
+        y="55"
+        fill="#00ff41"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="11"
         xml:space="preserve"
         filter="url(#glow)">
 
-    <tspan x="30" dy="22">STB1132</tspan>
-    <tspan x="30" dy="22"></tspan>
+<tspan x="40" dy="14">            ___    ___</tspan>
+<tspan x="40" dy="14">        .."`)" `.." `(``..</tspan>
+<tspan x="40" dy="14">      .'; _..=. :: `-'._ ;`.</tspan>
+<tspan x="40" dy="14">     : ) ;"`':._::_.      ( :.</tspan>
+<tspan x="40" dy="14">   .:-"   _.  `"##"` "._   `-:\</tspan>
+<tspan x="40" dy="14">  /."   -"`  ._.::._. .'"-   ".:</tspan>
+<tspan x="40" dy="14"> : :    ( -: `" :: "` :- )    : )</tspan>
+<tspan x="40" dy="14">( .":==._' `'=._##_.='` '_.==: .'</tspan>
+<tspan x="40" dy="14">(:  `, `"`    `"##"`    `"` .'`".)</tspan>
+<tspan x="40" dy="14"> \`'  `"--.  "- )( -" ..--"`  `-/</tspan>
+<tspan x="40" dy="14"> (" (_." =""-..."`...-""= "._) ")</tspan>
+<tspan x="40" dy="14">  "..__..-"  )%`..'%(  "-..__.."</tspan>
+<tspan x="40" dy="14">       (#"...'\%%%%/`..."#)</tspan>
+<tspan x="40" dy="14">        `######`--'######"</tspan>
+<tspan x="40" dy="14">          "###")@@(`###"</tspan>
+<tspan x="40" dy="14">               \@@/</tspan>
+<tspan x="40" dy="14">                )(</tspan>
 
-    <tspan x="30" dy="22">            ___    ___</tspan>
-    <tspan x="30" dy="22">        .."`)" `.." `(``..</tspan>
-    <tspan x="30" dy="22">      .'; _..=. :: `-'._ ;`.</tspan>
-    <tspan x="30" dy="22">     : ) ;"`':._::_.      ( :.</tspan>
-    <tspan x="30" dy="22"> <animate attributeName="opacity"
-           begin="0s"
-           dur="0.05s"
-           to="1"
-           fill="freeze"/> .:-"   _.  `"##"` "._   `-:\</tspan>
-    <tspan x="30" dy="22">  /."   -"`  ._.::._. .'"-   ".:</tspan>
-    <tspan x="30" dy="22"> : :    ( -: `" :: "` :- )    : )</tspan>
-    <tspan x="30" dy="22">( .":==._' `'=._##_.='` '_.==: .'</tspan>
-    <tspan x="30" dy="22">(:  `, `"`    `"##"`    `"` .'`".)</tspan>
-    <tspan x="30" dy="22"> \`'  `"--.  "- )( -" ..--"`  `-/</tspan>
-    <tspan x="30" dy="22"> (" (_." =""-..."`...-""= "._) ")</tspan>
-    <tspan x="30" dy="22">  "..__..-"  )%`..'%(  "-..__.."      Genetics • Neurodevelopment</tspan>
-    <tspan x="30" dy="22">       (#"...'\%%%%/`..."#)           CNVs • Brain MRI</tspan>
-    <tspan x="30" dy="22">        `######`--'######"            Python • R • Nextflow • AWS</tspan>
-    <tspan x="30" dy="22">          "###")@@(`###"              </tspan>
-    <tspan x="30" dy="22">               \@@/</tspan>
-    <tspan x="30" dy="22">                )(</tspan>
+  </text>
+
+  <!-- Profile -->
+  <text x="420"
+        y="75"
+        fill="#00ff41"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18"
+        filter="url(#glow)">
+
+    <tspan x="420" dy="0">Sara Azidane Chenlo</tspan>
+
+    <tspan x="420" dy="38">
+      Genetics • Neurodevelopment
+    </tspan>
+
+    <tspan x="420" dy="30">
+      Copy Number Variants • Brain MRI
+    </tspan>
+
+    <tspan x="420" dy="30">
+      Python • R • Nextflow • AWS
+    </tspan>
+
+    <tspan x="420" dy="30">
+      github.com/STB1132
+    </tspan>
 
   </text>
 
