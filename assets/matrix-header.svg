@@ -27,15 +27,15 @@
     <tspan x="30" dy="22">STB1132</tspan>
     <tspan x="30" dy="22"></tspan>
 
-    <tspan x="30" dy="22">  <animate attributeName="opacity"
-         values="1;.96;1;.98;1"
-         dur="4s"
-         repeatCount="indefinite"/>
-          ___    ___</tspan>
+    <tspan x="30" dy="22">            ___    ___</tspan>
     <tspan x="30" dy="22">        .."`)" `.." `(``..</tspan>
     <tspan x="30" dy="22">      .'; _..=. :: `-'._ ;`.</tspan>
     <tspan x="30" dy="22">     : ) ;"`':._::_.      ( :.</tspan>
-    <tspan x="30" dy="22">   .:-"   _.  `"##"` "._   `-:\</tspan>
+    <tspan x="30" dy="22"> <animate attributeName="opacity"
+           begin="0s"
+           dur="0.05s"
+           to="1"
+           fill="freeze"/> .:-"   _.  `"##"` "._   `-:\</tspan>
     <tspan x="30" dy="22">  /."   -"`  ._.::._. .'"-   ".:</tspan>
     <tspan x="30" dy="22"> : :    ( -: `" :: "` :- )    : )</tspan>
     <tspan x="30" dy="22">( .":==._' `'=._##_.='` '_.==: .'</tspan>
